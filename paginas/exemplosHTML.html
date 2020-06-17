@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplos HTML</title>
+</head>
+
+<body>
+    <header class="menu">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="exemplosCSS.html">CSS</a></li>
+                <li><a href="exemplosJAVASCRIPT.html">JavaScript</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <h3>índice</h3>
+            <ul>
+                <li><a href="#formText">Formatação de Texto</a></li>
+                <li><a href="#expList">Exemplos de Listas</a></li>
+                <li><a href="#expLink">Exemplos de Links</a></li>
+                <li><a href="#expTables">Exemplos de Tabelas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="corpoHTML">
+
+        <!--Exemplos de formatação de texto-->
+        <section id="formText" class="formatacao">
+            <h2>Exemplos de Formatação de Texto</h2>
+            <table border="1" solid cellspacing=0 cellpadding=3>
+                <thead>
+                    <tr>
+                        <th>Efeito</th>
+                        <th>Exemplo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>texto negrito</b></td>
+                        <td><code>&lt;b&gt;texto negrito&lt;/b&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><strong>texto forte</strong></td>
+                        <td><code><code>&lt;strong&gt;texto forte&lt;/strong&gt;</code></code></td>
+                    </tr>
+                    <tr>
+                        <td><em>texto enfatizado</em></td>
+                        <td><code>&lt;em&gt;texto enfatizado&lt;/em&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><i>texto italico</i></td>
+                        <td><code>&lt;i&gt;texto italico&lt;/i&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><mark>texto grifado</mark></td>
+                        <td><code>&lt;mark&gt;texto grifado&lt;/mark&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><big>texto grande</big></td>
+                        <td><code>&lt;big&gt;texto grande&lt;/big&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><small>texto pequeno</small></td>
+                        <td><code>&lt;small&gt;texto pequeno&lt;/small&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><del>texto taxado</del></td>
+                        <td><code>&lt;del&gt;texto taxado&lt;/del&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><ins>texto inserido</ins></td>
+                        <td><code>&lt;ins&gt;texto inserido&lt;/ins&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><u>texto sublinhado</u< /td>
+                        <td><code>&lt;u&gt;texto sublinhado&lt;/u&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td>esse é um <sub>texto subscrito</sub> </td>
+                        <td><code>&lt;sub&gt;texto subscrito&lt;/sub&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td>esse é um <sup>texto sobreescrito</sup></td>
+                        <td><code>&lt;sup&gt;texto sobreescrito&lt;/sup&gt;</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- ----------------- -------------------------- ------------------------------------- -->
+
+        <!--Exemplos de Listas - Lista Não Ordenada-->
+        <section id="expList" class="expListas">
+            <h2>Exemplos de Formatação de Lista</h2>
+            <table border="1" cellspacing="0" cellpadding="2" width=75%>
+                <thead>
+                    <tr>
+                        <th width=50%>Efeito</th>
+                        <th width=50%>Código</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan=2>
+                            <center><strong>Lista Não Ordenada</center></strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <code>
+                                &lt;ul&gt; <br>
+                                &nbsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+                                &nbsp;&lt;li&gt;Item 2&lt;/li&gt;<br>
+                                &nbsp;&lt;li&gt;Item 3&lt;/li&gt;<br>
+                                &lt;/ul&gt;
+                            </code>
+                        </td>
+                    </tr>
+                    <!-- ----------------------- --------------------------->
+                    <tr>
+                        <td colspan=2>
+                            <center><strong>Lista Ordenada</center></strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ol>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ol>
+                        </td>
+                        <td>
+                            <code>
+                                &lt;ul&gt; <br>
+                                &nbsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+                                &nbsp;&lt;li&gt;Item 2&lt;/li&gt;<br>
+                                &nbsp;&lt;li&gt;Item 3&lt;/li&gt;<br>
+                                &lt;/ul&gt;
+                            </code>
+                    </tr>
+                    <tr>
+                        <td colspan=2>
+                            <center><strong>Lista de Definição</center></strong>
+                        </td>
+                    </tr>
+                    <!-- ----------------------- ---------------------- -->
+                    <tr>
+                        <td>
+                            <dl>
+                                <dt><strong>Título da Lista:</strong></dt>
+                                <dd>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est aut id obcaecati
+                                    maxime ut voluptatem
+                                    totam
+                                    quibusdam excepturi possimus. Repudiandae eos dicta cumque eius distinctio nesciunt
+                                    beatae sunt enim
+                                    impedit.
+                                </dd>
+
+                                <dt><strong>Navegador:</strong></dt>
+                                <dd>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, incidunt nihil
+                                    dolorem, ipsam commodi
+                                    veritatis veniam impedit ullam sequi voluptatem cupiditate consequuntur labore
+                                    dignissimos,
+                                    perferendis
+                                    illum laboriosam sapiente error architecto.
+                                </dd>
+                            </dl>
+                        </td>
+                        <td>
+                            <code>
+                                &lt;dl&gt;<br>
+                                &nbsp;&lt;dt&gt;Título da Lista:&lt;/dt&gt;<br>
+                                &nbsp;&nbsp;&lt;dd&gt;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est aut id obcaecati maxime ut voluptatem
+                                totam quibusdam excepturi possimus. Repudiandae eos dicta cumque eius distinctio nesciunt beatae sunt enim
+                                impedit.&lt;/dd&gt;<br>
+                                &lt;/dl&gt;<br>
+                                &lt;dl&gt;<br>
+                                &nbsp;&lt;dt&gt;Navegador:&lt;/dt&gt;<br>
+                                &nbsp;&nbsp;&lt;dd&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, incidunt nihil dolorem, ipsam commodi
+                                veritatis veniam impedit ullam sequi voluptatem cupiditate consequuntur labore dignissimos,
+                                perferendis
+                                illum laboriosam sapiente error architecto.&lt;/dd&gt;<br>
+                                &lt;/dl&gt;
+                            </code>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- --------------------- --------------------------------- ---------------------------------- -->
+
+        <section id="expLink" class="expLinks">
+            <h2>Exemplos de Links</h2>
+
+            <!--link para outro site (o atributo target="_blank" abre a pagina em uma nova aba do navegador)-->
+            <h4>Link para outro site:</h4>
+            <code>
+                &lt;dl&gt;<br>
+                &nbsp;&lt;dt&gt;titulo da lista&lt;/dt&gt;<br>
+                &nbsp;&nbsp;&lt;dd&gt;*texto*&lt;/dd&gt;<br>
+                &lt;/dl&gt;
+            </code>
+
+            <!--link para um bookmark da própria página-->
+            <h4>Link para um bookmark da própria página:</h4>
+            <code>
+                &lt;p&gt;<br>
+                &nbsp;vá até a área de exemplos de &lt;a href="#formatacao"&gt;formatação&lt;/a&gt;<br>
+                &lt;/p&gt;
+            </code>
+
+            <!--link para um bookmark de outra página-->
+            <h4>Link para um bookmark de outra página:</h4>
+            <code>
+                &lt;p&gt;<br>
+                &nbsp;Na sessão &lt;a href="http://serasa.proway.com.br/#faq" target="_blank"&gt;perguntas frequentes&lt;/a&gt; do Projeto Serasa
+                da Proway as respostas para suas perguntas.<br>
+                &lt;/p&gt;
+            </code>
+
+            <!--link para uma página do próprio site-->
+            <h4>Link para uma página do próprio site:</h4>
+            <code>
+                &lt;p&gt;<br>
+                    &nbsp;A descrição do curso se encontra na &lt;a href="../index.html" target="_blank"&gt;página principal&lt;/a&gt; deste site.<br>
+                &lt;/p&gt;
+            </code>
+
+            <!--link em imagem-->
+            <h4>Link em imagem:</h4>
+            <code>
+                &lt;figure&gt;<br>
+                &nbsp;&lt;a href="../index.html" target="_blank"&gt;<br>
+                &nbsp;&nbsp;&lt;img src="../img/cobol.png" alt="dinossauro da programação" width="150"&gt;<br>
+                &nbsp;&lt;/a&gt;&lt;br&gt;<br>
+                &nbsp;&lt;figcaption&gt;Dinossauro Programmer&lt;figcaption&gt;<br>
+                &lt;/figure&gt;
+            </code>
+
+            <!--link para e-mail-->
+            <h4>Link para e-mail de contato:</h4>
+            <code>
+                &lt;p&gt;<br>
+                &nbsp;Gostou de nossa oferta? Entre em &lt;a 
+                href="mailto:ivan.borchardt.cobol@gmail.com?subject=Contato&body=estou entrando em contato referente a oferta"&gt;contato&lt;/a&gt;<br>
+                &lt;/p&gt;
+            </code>
+        </section>
+        <!-- ------------------------------ ----------------------------------------------- -->
+
+        <section id="expTables" class="expTabelas">
+            <h2>Exemplos de Tabelas</h2>
+
+            <h4>Tabela Comum</h4>
+            <table border="1">
+                <tr>
+                    <td>linha 1, coluna 1</td>
+                    <td>linha 1, coluna 2</td>
+                </tr>
+                <tr>
+                    <td>linha 2, coluna 1</td>
+                    <td>linha 2, coluna 2</td>
+                </tr>
+            </table>
+            <h5>Como fazer o código:</h5>
+            <code>
+                &lt;table border="1"&gt;<br>
+                &nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha1, coluna 1&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha1, coluna 2&lt;/td&gt;<br>
+                &nbsp;&lt;/tr&gt;<br>
+                &nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha2, coluna 1&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha2, coluna 2&lt;/td&gt;<br>
+                &nbsp;&lt;/tr&gt;<br> 
+                &lt;/table&gt;
+            </code>
+            <br><br>
+
+            <!--Tabela com 2 linhas de dados, 1 linha de cabeçalho e 2 colunas-->
+            <h4>Tabela com 2 linhas de dados, 1 linha de cabeçalho e 2 colunas</h4>
+            <table border="1" width=100%>
+                <tr>
+                    <th>cabeçalho 1</th>
+                    <th>cabeçalho 2</th>
+                </tr>
+                <tr>
+                    <td>
+                        <center>linha 1, coluna 1</center>
+                    </td>
+                    <td align="right">linha 1, coluna 2</td>
+                </tr>
+                <tr>
+                    <td>linha 2, coluna 1</td>
+                    <td>linha 2, coluna 2</td>
+                </tr>
+            </table>
+            <h5>Como fazer o código:</h5>
+            <code>
+                &lt;table border=1 width=100%&gt;<br>
+                &nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&lt;th&gt;cabeçalho 1&lt;/th&gt;<br>
+                &nbsp;&nbsp;&lt;th&gt;cabeçalho 2&lt;/th&gt;<br>
+                &nbsp;&lt;/tr&gt;<br>
+                &nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;&lt;center&gt;linha1, coluna 1&lt;center&gt;&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;td align="right"&gt;linha1, coluna 2&lt;/td&gt;<br>
+                &nbsp;&lt;/tr&gt;<br>
+                &nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha2, coluna 1&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha2, coluna 2&lt;/td&gt;<br>
+                &nbsp;&lt;/tr&gt;<br> 
+                &lt;/table&gt;
+            </code>
+            <br><br>
+
+            <!--tabela com exemplo de linhas de uma mesma coluna mescladas com rowspan-->
+            <h4>Tabela com exemplo de linhas de uma mesma coluna mescladas com rowspan</h4>
+            <table border=1>
+                <tr>
+                    <th>coluna 1</th>
+                    <th>coluna 2</th>
+                    <th>coluna 3</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">linha 1, coluna 1</td>
+                    <td>linha 1, coluna 2</td>
+                    <td>linha 1, coluna 3</td>
+                </tr>
+                <tr>
+                    <td>linha 2, coluna 1</td>
+                    <td>linha 2, coluna 2</td>
+                </tr>
+            </table>
+            <h5>Como fazer o código:</h5>
+            <code>
+                &lt;table border=1&gt;<br>
+                &nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&lt;th&gt;coluna 1&lt;/th&gt;<br>
+                &nbsp;&nbsp;&lt;th&gt;coluna 2&lt;/th&gt;<br>
+                &nbsp;&nbsp;&lt;th&gt;coluna 3&lt;/th&gt;<br>
+                &nbsp;&lt;/tr&gt;<br>
+                &nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&lt;td rowspan="2"&gt;linha1, coluna 1&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha1, coluna 2&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha1, coluna 3&lt;/td&gt;<br>
+                &nbsp;&lt;/tr&gt;<br>
+                &nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha2, coluna 1&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha2, coluna 2&lt;/td&gt;<br>
+                &nbsp;&lt;/tr&gt;<br> 
+                &lt;/table&gt;
+            </code>
+            <br><br>
+
+
+            <!--tabela com exemplo de linhas de colunas diferentes mescladas usando colspan-->
+            <h4>Tabela com exemplo de linhas de colunas diferentes mescladas usando colspan</h4>
+            <table border=1>
+                <tr>
+                    <th>coluna 1</th>
+                    <th>coluna 2</th>
+                    <th>coluna 3</th>
+                </tr>
+                <tr>
+                    <td>linha 1, coluna 1</td>
+                    <td>linha 1, coluna 2</td>
+                    <td>linha 1, coluna 3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">linha 2, coluna 1</td>
+                    <td>linha 2, coluna 2</td>
+                </tr>
+            </table>
+            <h5>Como fazer o código:</h5>
+            <code>
+                &lt;table border=1&gt;<br>
+                &nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&lt;th&gt;coluna 1&lt;/th&gt;<br>
+                &nbsp;&nbsp;&lt;th&gt;coluna 2&lt;/th&gt;<br>
+                &nbsp;&nbsp;&lt;th&gt;coluna 3&lt;/th&gt;<br>
+                &nbsp;&lt;/tr&gt;<br>
+                &nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha1, coluna 1&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha1, coluna 2&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha1, coluna 3&lt;/td&gt;<br>
+                &nbsp;&lt;/tr&gt;<br>
+                &nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&lt;td colspan="2"&gt;linha2, coluna 1&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;td&gt;linha2, coluna 2&lt;/td&gt;<br>
+                &nbsp;&lt;/tr&gt;<br> 
+                &lt;/table&gt;
+            </code>
+            <br><br>
+
+            <h4>Exemplo de sua utilização:</h4>
+            <table width=70% border=1 cellspacing="0" cellpadding="0" bgcolor="red" solid>
+                <caption><strong><i>Nota Fria Papelaria</i></strong></caption>
+                <thead>
+                    <tr>
+                        <th width=50% height="75">quantidade</th>
+                        <th>descrição</th>
+                        <th>preço unitário</th>
+                        <th>preço total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2</td>
+                        <td>lápis de cor</td>
+                        <td>R$5,00</td>
+                        <td>R$10,00</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>caderno brochura 60fl</td>
+                        <td>R$3,00</td>
+                        <td>R$12,00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><b>Total</b></td>
+                        <td>R$22,00</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br><br>
+            <h5>Como fazer o código:</h5>
+            <code>
+                &lt;table width=70% border=1 cellspacing="0" cellpadding="0" bgcolor="red" solid&gt;<br>
+                &nbsp;&lt;thead&gt;<br>
+                &nbsp;&nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;th&gt;descrição&lt;/th&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;th&gt;preço unitário&lt;/th&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;th&gt;preço total&lt;/th&gt;<br>
+                &nbsp;&nbsp;&lt;/tr&gt;<br>
+                &nbsp;&lt;/thead&gt;<br>
+                &nbsp;&lt;tbody&gt;<br>
+                &nbsp;&nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;td&gt;2&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;td&gt;lápis de cor&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;td&gt;R$5,00&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;td&gt;R$10,00&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;/tr&gt;<br>
+                &nbsp;&nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;td&gt;4&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;td&gt;caderno brochura 60fl&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;td&gt;R$3,00&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;td&gt;R$12,00&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;/tr&gt;<br>
+                &nbsp;&lt;/tbody&gt;<br>
+                &nbsp;&lt;tfoot&gt;<br>
+                &nbsp;&nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;td colspan="2"&gt;Total&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;td&gt;R$22,00&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;/tr&gt;<br> 
+                &nbsp;&lt;/tfoot&gt;<br>
+                &lt;/table&gt;
+            </code>
+            <br><br>
+        </section>
+    </main>
+    <footer id="rodape">
+        <p>
+            <br>Para retornar para página inicial, clique <a href="../index.html">aqui</a>.<br>
+        </p>
+    </footer>
+
+</body>
+
+</html>
